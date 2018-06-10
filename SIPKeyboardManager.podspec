@@ -37,7 +37,7 @@ This class tries to handle all the cases and ensure that you will receive the co
   #   'SIPKeyboardManager' => ['SIPKeyboardManager/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
