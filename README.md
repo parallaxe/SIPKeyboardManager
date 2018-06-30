@@ -17,6 +17,19 @@ it, simply add the following line to your Podfile:
 pod 'SIPKeyboardManager'
 ```
 
+## Usage
+
+Create `SIPKeyboardManager`
+```swift
+var keyboardManager: SIPKeyboardManager = SIPKeyboardManager()
+```
+Make view controller implement `SIPKeyboardManagerDelegate`
+```swift
+func keyboardManager(_ keyboardManager: SIPKeyboardManager, updatingKeyboardFrameTo keyboardFrame: CGRect, withAnimationDuration animationDuration: TimeInterval) {
+	...your code...
+}
+```
+
 ## Author
 
 Hendrik von Prince, raise.rescue@gmail.com
