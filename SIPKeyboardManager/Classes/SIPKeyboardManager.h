@@ -20,6 +20,6 @@
  http://www.openradar.me/25056255 ), but most of them.
  */
 @interface SIPKeyboardManager : NSObject
-@property(nonatomic, weak) id<SIPKeyboardManagerDelegate> delegate;
+@property(nonatomic, weak, nullable) id<SIPKeyboardManagerDelegate> delegate;
 
 @end
