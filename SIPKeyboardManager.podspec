@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SIPKeyboardManager'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'SIPKeyboardManager sends out informations about the current keyboard-frame via delegate.'
 
 # This description is used to generate tags and improve search results.
