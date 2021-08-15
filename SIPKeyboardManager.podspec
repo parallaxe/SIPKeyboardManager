@@ -26,7 +26,7 @@ This class tries to handle all the cases and ensure that you will receive the co
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hendrik von Prince' => 'raise.rescue@gmail.com' }
-  s.source           = { :git => 'https://github.com/Sipeso/SIPKeyboardManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/parallaxe/SIPKeyboardManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
